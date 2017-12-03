@@ -1,0 +1,184 @@
+.header {
+   display: flex;
+   z-index: 1;
+   position: fixed;
+  justify-content: space-between;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  background-color: black;
+}
+
+body {
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+  background-color: black;
+}
+
+a {
+  color: seashell;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  }
+
+.navigation {
+display: flex;
+justify-content: flex-end;
+
+}
+
+.Missionpic {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 900px;
+  padding-top: 40px;
+  text-align: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-size: cover;
+}
+
+.black-bground1 {
+
+  text-align: center;
+ background-color: black;
+}
+
+.black-bground2 {
+  text-align: center;
+height: 77px;
+background-color: black;
+}
+
+.black-bground_all {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  height: 100px;
+  text-align: center;
+  width: 100%;
+}
+
+.second-small-title {
+text-align: center;
+}
+
+.all-wrap {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.first {
+  padding-right: 20px;
+  width: 299px;
+}
+
+.second {
+  padding-right: 20px;
+  width: 299px;
+}
+
+.third {
+  width: 299px;
+}
+
+.fourth {
+  width: 299px;
+  height: 200px;
+}
+
+.fifth {
+  width: 299px;
+  height: 200px;
+}
+
+.first-t {
+
+}
+
+.second-t {
+
+}
+
+.third-t {
+
+
+}
+
+.wrap-one {
+  padding-left: 25%
+}
+
+.wrap-two {
+
+}
+
+.wrap-three {
+  padding-right: 25%;
+
+}
+
+.wrap-four {
+ padding-right: 20px;
+}
+
+
+.wrap-five {
+
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.locations {
+  height: 500px;
+  border-top: 1px solid black;
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  justify-content: space-around;
+  background-size: cover;
+  align-items: center;
+}
+
+.location-one {
+  flex-direction: column;
+  background-color: black;
+  width: 300px;
+  text-align: center;
+  height: 224px;
+}
+
+.location-two {
+  text-align: center;
+  background-color: black;
+}
+
+.location-three {
+  background-color: black;
+  width: 300px;
+  text-align: center;
+}
+
+.bottom-contact {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-phone {
+  display: flex;
+  justify-content: center;
+}
